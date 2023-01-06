@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<link href="grid.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="scripts.js"></script>
+	<title>lab3</title>
+</head>
+<body onload="askAboutCookies()">
+	<div id="body">
+		<div id="header">
+			<div id="header-string">Провідник українського спротиву</div>
+			<h4>Слава Україні</h4>
+		</div>
+		<div id="middle">
+			<div id="left">
+				<div id="left-left" class="middle-items">
+					<img src="Степан.jpg" alt="альтернативний текст">
+					<button type="button" onclick="getSquare()">Compute square</button>
+				</div>
+				<div id="left-right" class="middle-items"><div>
+					<select onChange="filter(this)" onKeyUp="filter(this)" id="sel1">
+					<option value="1">Do not create a list</option>
+					<option value="2">create list</option>
+					</select>
+					<form id ="focus_form">
+						<label for="fname">Enter any word:</label><br>
+						<input type="text" id="fname" name="fname" value="Mertva rusna"><br>
+						<button type="button" onclick="addElement()" >Submit</button>
+					  </form>
+					  <div>List of people who signed:</div>
+					  <ul type="1" id="myList">
+						
+						
+					  </ul>
+					</div></div>
+				<div id="left-bottom">
+					<button type="button" onclick="changeName()">Change name</button>
+					<a href="index.html">  Тиць   </a>
+					<a href="lab_2_flexbox.html">  Тиць   </a>
+					<a href="lab_2_grid.html">  Тиць   </a>
+				</div>
+			</div>
+			<div id="right-form">
+				<div id="right-left" class="middle-items">
+					<form>
+						<label for="form_number">Numbers:</label><br>
+						  <input type="text" id="form_number"><br><br>
+						  <input type="submit" onclick="checkCookie()" style="background-color:rgb(47, 18, 209); margin:2%" value="Get max number">
+					</form>
+					<p>Як активний діяч УВО та ОУН має законодавчо визначений статус Борець за незалежність України у XX сторіччі[3]. В 2010 посмертно нагороджений званням герой України. Вважається національним героєм України. </p></div>
+				<div id="right-right" class="middle-items">	Степа́н Андрі́йович Банде́ра (1 січня 1909, с. Старий Угринів, Калуський повіт, Королівство Галичини та Володимирії, Австро-Угорщина, нині Калуського району, Івано-Франківська область, Україна — 15 жовтня 1959, Мюнхен, Баварія, ФРН) — український політичний діяч
+				</div>
+			</div>
+		</div>
+		<div id="footer"><h6>Героям Слава</h6></div>
+	</div>
+</body>
+</html>
